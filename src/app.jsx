@@ -1,9 +1,13 @@
-import axios from "axios";
-import { useState } from "react";
+import Categories from "./components/categories";
 import NewsList from "./components/news_list";
 
 const App = () => {
-  return <NewsList />;
+  return (
+    <>
+      <Categories />
+      <NewsList />
+    </>
+  );
 };
 
 export default App;
